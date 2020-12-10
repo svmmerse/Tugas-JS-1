@@ -93,13 +93,13 @@ button {
 .submit {
     position: relative;
     border-radius: 10px;
-    left: 95px;
+    left: 105px;
 }
 
 .reset {
     position: relative;
     border-radius: 10px;
-    left: 75px;
+    left: 85px;
 }
 
 .background {
