@@ -1,0 +1,133 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.isi{
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 20px;
+}
+
+h1{
+    font-family: 'PT Sans';
+    text-align: center;
+    height: 30px;
+    font-size: 35px;
+    position: relative;
+    color : #f5dfdf;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2{
+    width: 60%;
+    font-family: 'PT Sans';
+    text-align: center;
+    font-size: 35px;
+    color : #f5dfdf;
+    height : 50px;
+    position: relative;
+    text-shadow: 2px 2px 4px #000000;
+    top: 40px;
+    left: 270px;
+}
+
+table{
+    margin:0px;
+    border: 20px;
+    padding-top: 20px;
+    width: 50%;
+    position: relative;
+    left: 310px;
+    margin: 20px;
+    border-radius: 5px;
+    padding-bottom: 100px;
+}
+
+td{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: green;
+    font-family: cambria;
+    font-size: 20px;
+    color: white;
+}
+
+.border {
+    border-style: unset;
+    border-radius: 5px;
+}
+
+.bar {
+    padding: 15px 35px 35px 35px;
+    margin-top: 130px;
+}
+.input {
+    width: 300px;
+    padding: 5px 15px;
+    height: 30px;
+    margin: 15px 0;
+    box-shadow: 0 0 10px 0 rgb(226, 226, 226);  
+}
+
+button {
+    cursor: pointer;
+    display: inline-flex;
+    border-style: none;
+    width: 500px;
+    padding: 30px 50px;
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+
+.submit {
+    position: relative;
+    border-radius: 10px;
+    left: 120px;
+}
+
+.reset {
+    position: relative;
+    border-radius: 10px;
+    left: 100px;
+}
+
+.background {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Backwhite {
+    background-color: white;
+}
+
+.Backgreen {
+    background-color: green;
+}
+
+.white {
+    color: white;
+    font-size: large;
+    font-weight: lighter; 
+}
+
+.red {
+    align-items: center;
+    color: rgb(230, 16, 58);
+    font-family: Cambria;
+    font-size: 20px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daftar Hadir Web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javaScript.js"></script>
+</head>
+<body>
+
+    <img src="gambar.jpg" class="background">
+
+    <div class="container">
+
+        <div class="bar border Backgreen">
+            <form>
+                <h1>Daftar Hadir</h1>
+
+                <label for="namalengkap" class="white">Nama Lengkap</label> <br>
+                <input type="text" id="nama_lengkap" class="border Backwhite red" placeholder="Nama lengkap"> <br>
+                
+                <label for="email" class="white">Email</label> <br>
+                <input type="text" id="email" class="border Backwhite red" placeholder="Email" > <br> <br>
+    
+                <input type="button" onclick="displayDetails()" class="button red white submit" value="Submit"> <br> 
+                <input type="reset" class="button red white reset" value="Reset Inputan"> <br>
+        </div>
+    </div>
+
+    <div class="isi">
+        <h2> Detail Pengunjung </h2>
+        <table id="display">
+            <tr>
+                <td> Nama Pengunjung </td>
+                <td> Email Pengunjung </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
